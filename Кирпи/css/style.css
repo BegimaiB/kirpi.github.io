@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body{
+    background-color: #fafafa;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+-webkit-font-smoothing: antialiased; 
+-webkit-overflow-scrolling: touch;
+margin-top: 70px;
+}
+
+
+h1, h2, h3,h4, h5, h6{
+   font-family: 'Pangolin', sans-serif;;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+ 
+}
+h1{
+    font-family: 'Pangolin', sans-serif;;
+     font-weight: 300;
+     color: rgb(0, 0, 0);
+  
+ }
+
+p{
+  line-height: 28px;
+  margin-bottom: 25px;
+  color: rgb(24, 17, 36);  
+}
+
+.centered{
+    text-align: center;
+}
+
+
+.navbar-brand i{
+	color: #ff7878;
+}
+
+.nav-link{
+	padding: 15px;
+	font-weight: 600;
+}
+
+.nav-item .active{
+	background: #06a321;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+#carousel-item active{
+    width: 100%;
+}
+#about{
+    background: url(.../img/class.jpg) no-repeat center top;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+    align-items: center;
+}
+#about h1{
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#events{
+	background: #e7e7e7;
+	padding-top: 70px;
+	padding-bottom: 70px;
+    text-align: center;
+    
+}
+#events i{
+    margin-top: 0px;
+}
+#events h4{
+    font-weight: 700;
+    margin-top: 0px;
+    
+
+    
+}
+
+#rules{
+	background: #e7e7e7;
+	padding-top: 100px;
+	padding-bottom: 70px;
+    text-align: center;
+    
+}
+
+
+.col-lg-12 i{
+
+	font-size: 30px;
+}
+
+#news{
+    background: #c3eccd;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#news .col-lg-4{
+    margin-top: 20px;
+}
+
+.w{
+    padding-top: 35px;
+}
+.col-lg-4 i{
+    color: #ff0000;
+    font-size: 30px;
+}
+
+
+#list{
+    padding-top: 100px;
+    padding-bottom: 40px;
+ 
+}
+#list a{
+    background:#c3eccd;
+}
+
+#list h4{
+    padding-top: 10px;
+}
+
+
+
+#maps{
+	background: #e7e7e7;
+	padding-top: 100px;
+	padding-bottom: 70px;
+    text-align: center;
+}
+
+#footer{
+    background: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+   
+}
+
+#footer h3{
+    color: #e7e7e7;
+}
+
+#footer i{
+    color: #bdbdbd;
+}
+
+
+
+#copyrights{
+    background: #c3eccd;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #080808;
+}
+
+
+
